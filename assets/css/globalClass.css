@@ -1,0 +1,31 @@
+.spacing-menu{
+    height: 6.5rem;
+ }
+.main-bg{
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+.white-bg{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+.main-content{
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 8rem var(--gap);
+}
+
+.section{
+    min-height: 100vh;
+}
+.full-width{
+    width: 100%;
+    flex: 1 1 auto;
+}
+/* @media (max-width: 800px){
+    .main-content{
+        padding: 10rem var(--gap);
+    }
+} */
